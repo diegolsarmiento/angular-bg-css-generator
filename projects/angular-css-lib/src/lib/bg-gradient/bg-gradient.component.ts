@@ -15,10 +15,11 @@ export class BgGradientComponent implements OnInit {
 
   ngOnInit(): void {
     this.gradient = tinygradient([
-      '#ff0000',
-      '#00ff00',
-      '#0000ff'
+      { color: '#d8e0de', pos: 0 },
+      { color: '#255B53', pos: 0.8 },
+      { color: '#000000', pos: 1 }
     ]);
+    this.background = this.gradient.css();
   }
 
 }

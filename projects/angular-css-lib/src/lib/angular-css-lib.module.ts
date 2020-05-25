@@ -7,6 +7,6 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [ AngularCssLibComponent, BgGradientComponent ],
   imports: [ CommonModule ],
-  exports: [ AngularCssLibComponent ]
+  exports: [ AngularCssLibComponent, BgGradientComponent ]
 })
 export class AngularCssLibModule { }
