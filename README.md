@@ -1,4 +1,4 @@
-# Angular BG CSS Generator (Random Background Gratient)
+# Angular BG Generator (Random Background Gradient)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
