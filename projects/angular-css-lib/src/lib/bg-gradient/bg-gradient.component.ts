@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as tinygradient from 'tinygradient';
 
 @Component({
   selector: 'lib-bg-gradient',
@@ -8,10 +9,16 @@ import { Component, OnInit } from '@angular/core';
 export class BgGradientComponent implements OnInit {
 
   background: any;
+  gradient: any;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.gradient = tinygradient([
+      '#ff0000',
+      '#00ff00',
+      '#0000ff'
+    ]);
   }
 
 }
